@@ -139,6 +139,10 @@
 
 	.emoji-section {
 		margin-bottom: 24px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 	}
 
 	.emoji {
@@ -150,10 +154,7 @@
 	.gorsel{
 		height: 150px;
 		width: auto;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
+
 	}
 
 	.word-section {
