@@ -60,7 +60,7 @@
 	<!-- Emoji Section -->
 	{#if word.acf_fields?.gorsel}
 		<div class="emoji-section">
-			<img class="emoji" src="{word.acf_fields.gorsel}" alt="{word.almanca}">
+			<img class="gorsel" src="{word.acf_fields.gorsel}" alt="{word.almanca}">
 		</div>
 	{/if}
 
@@ -145,6 +145,11 @@
 		font-size: 6rem;
 		display: block;
 		line-height: 1;
+	}
+
+	.gorsel{
+		height: 100px;
+		width: auto;
 	}
 
 	.word-section {
