@@ -148,8 +148,12 @@
 	}
 
 	.gorsel{
-		height: 100px;
+		height: 150px;
 		width: auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 	}
 
 	.word-section {
