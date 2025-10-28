@@ -58,7 +58,7 @@
 	{/if}
 
 	<!-- Emoji Section -->
-	{#if word.acf_fields?.emoji}
+	{#if word.acf_fields?.gorsel}
 		<div class="emoji-section">
 			<img class="emoji" src="{word.acf_fields.gorsel}" alt="{word.almanca}">
 		</div>
