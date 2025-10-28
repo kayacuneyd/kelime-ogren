@@ -8,7 +8,8 @@
 		acf_fields: {
 			turkce: '',
 			ornekler: '',
-			emoji: ''
+			emoji: '',
+			gorsel: ''
 		}
 	};
 
@@ -53,6 +54,13 @@
 	{#if word.acf_fields?.emoji}
 		<div class="emoji-section">
 			<span class="emoji">{word.acf_fields.emoji}</span>
+		</div>
+	{/if}
+
+	<!-- Emoji Section -->
+	{#if word.acf_fields?.emoji}
+		<div class="emoji-section">
+			<img class="emoji" src="{word.acf_fields.gorsel}">
 		</div>
 	{/if}
 
